@@ -73,9 +73,7 @@
           <artifactId>maven-checkstyle-plugin</artifactId>
           <version>3.1.2</version>
           <configuration>
-            <configLocation>
-              <google_checks class="xml"></google_checks>
-            </configLocation>
+            <configLocation>google_checks.xml</configLocation>
           </configuration>
         </plugin>
       </plugins>
